@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntradayReportWorkerService", "IntradayReportWorkerService\IntradayReportWorkerService.csproj", "{D0965E5D-7ED4-4F3E-B9F1-C3AE2401A0BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntradayReportWorkerService.Tests", "IntradayReportWorkerService.Tests\IntradayReportWorkerService.Tests.csproj", "{7983DB8F-6CE8-4C13-AC6C-147CC0FA3BF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{D03BDDB4-5E8B-448A-A077-EEF98D826EDB}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0965E5D-7ED4-4F3E-B9F1-C3AE2401A0BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0965E5D-7ED4-4F3E-B9F1-C3AE2401A0BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0965E5D-7ED4-4F3E-B9F1-C3AE2401A0BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0965E5D-7ED4-4F3E-B9F1-C3AE2401A0BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7983DB8F-6CE8-4C13-AC6C-147CC0FA3BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7983DB8F-6CE8-4C13-AC6C-147CC0FA3BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7983DB8F-6CE8-4C13-AC6C-147CC0FA3BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7983DB8F-6CE8-4C13-AC6C-147CC0FA3BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83168F4A-6576-4EB2-A163-3CE0D65EDBA2}
+	EndGlobalSection
+EndGlobal
